@@ -1,6 +1,5 @@
 <?php
     require_once('global_configs.php');
-    require_once('db_connection.php');
     
     $scriptName = str_replace('index.php', '', $_SERVER['SCRIPT_NAME']);
 
