@@ -1,10 +1,6 @@
 <?php
-    $BASE_URL = 'http://' . $_SERVER["SERVER_NAME"] . dirname(str_replace('index.php', '', $_SERVER['SCRIPT_NAME']) . "?");
-    $BASE_URL = rtrim($BASE_URL, '/') . '/';
-
-    $API_URL = 'http://localhost/projects/Projetos%20pessoais/Dados%20Star%20Wars/';
-
-    date_default_timezone_set('America/Sao_Paulo');
+    require_once('global_configs.php');
+    require_once('db_connection.php');
     
     $scriptName = str_replace('index.php', '', $_SERVER['SCRIPT_NAME']);
 
