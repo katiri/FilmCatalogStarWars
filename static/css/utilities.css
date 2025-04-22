@@ -1,0 +1,10 @@
+.border-color-standard {
+    border-color: #48494a !important;
+}
+
+.title-highligh {
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: #f6bd00;
+    padding-left: 5px;
+}

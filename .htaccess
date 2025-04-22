@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Não redirecionar requisições para a pasta static
+RewriteCond %{REQUEST_URI} !^/static/
+
+# Redireciona todas as outras requisições para o index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L,QSA]

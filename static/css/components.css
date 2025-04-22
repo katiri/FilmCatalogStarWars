@@ -1,0 +1,97 @@
+.film-card {
+    border-radius: 15px;
+    background-color: #131313;
+    transition: background-color 0.2s ease;
+    position: relative;
+}
+
+.film-card:hover {
+    cursor: pointer;
+    background-color: #1f1f1f;
+}
+
+.film-card a:hover {
+    text-decoration: none;
+}
+
+.film-card img {
+    border-radius: 15px 15px 0 0;
+}
+
+.film-card .title i {
+    transition: color 0.5s ease;
+}
+
+.film-card:hover .title i {
+    color: #f6bd00;
+}
+
+.droptrue {
+    list-style-type: none;
+    background: #2c2c2c;
+    
+    padding: 5px;
+    
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    min-height: 80px;
+}
+
+.droptrue li {
+    margin: 5px;
+    padding: 10px;
+
+    background-color: #131313;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: grab;
+    
+    width: 200px;
+}
+
+.droptrue li.ui-state-highlight {
+    background-color: #f6bd00;
+}
+
+.tier_rank {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#tier_rank_s {
+    background-color: #FF7F7F;
+}
+
+#tier_rank_a {
+    background-color: #FFBF7F;
+}
+
+#tier_rank_b {
+    background-color: #FFDF7F;
+}
+
+#tier_rank_c {  
+    background-color: #FFFF7F;
+}
+
+#tier_rank_d {
+    background-color: #BFFF7F;
+}
+
+.watched-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0;
+
+    transition: opacity 0.8s ease;
+}
+
+.film-card:hover .watched-btn {
+    opacity: 1;
+}

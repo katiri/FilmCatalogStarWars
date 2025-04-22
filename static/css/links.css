@@ -1,0 +1,21 @@
+.link, .link i {
+    color: #bdbdbd;
+    transition: color 0.8s ease;
+}
+
+.link:hover, .link:hover i {
+    text-decoration: none;
+    color: #F1DB1D;
+}
+
+#menu .link {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+#menu .link:hover {
+    color: #f6bd00;
+}
