@@ -95,3 +95,7 @@
 .film-card:hover .watched-btn {
     opacity: 1;
 }
+
+#search {
+    max-width: 300px;
+}

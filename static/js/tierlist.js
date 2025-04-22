@@ -26,18 +26,3 @@ function updateTierListCookie(){
         
     setCookie('tierlist', jsonString, 365);
 }
-
-$(function(){
-    $("ul.droptrue").sortable({
-        connectWith: "ul",
-        placeholder: "ui-state-highlight",
-        stop: function(event, ui) {
-            let rank = ui.item.parent().attr('id');
-            updateTierListCookie();
-
-            // console.log(JSON.parse(decodeURIComponent(getCookie('tierlist'))));
-        }
-    });
- 
-    $(".droptrue").disableSelection();
-});
