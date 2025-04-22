@@ -11,7 +11,7 @@ Após instalar tudo crie uma pasta no dentro de htdocs do XAMPP onde gostaria de
 Com o terminal na pasta escolhida, digite:
 
 ```sh
-git clone https://github.com/katiri/katiri.github.io.git .
+git clone https://github.com/katiri/FilmCatalogStarWars.git .
 ```
 
 Isso vai clonar os arquivos do projeto no diretório em que o terminal estiver aberto.
